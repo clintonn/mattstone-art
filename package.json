@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "MattStoneArt.com",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Gallery pages for New York-based sculptor and metalworker Matthew J. Stone",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -13,17 +13,28 @@
   },
   "dependencies": {
     "gatsby": "^2.0.33",
+    "gatsby-plugin-react-helmet": "^3.0.5",
     "gatsby-plugin-sass": "^2.0.7",
     "gatsby-source-filesystem": "^2.0.12",
     "node-sass": "^4.11.0",
+    "prop-types": "^15.6.2",
     "react": "^16.5.1",
-    "react-dom": "^16.5.1"
+    "react-dom": "^16.5.1",
+    "react-helmet": "^5.2.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/clintonn/mattstone-art"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/clintonn/mattstone-art/issues"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.11.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.12.0"
   }
 }
